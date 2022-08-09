@@ -2,8 +2,12 @@ package main
 
 import "fmt"
 
+func getHello(name string) string {
+	return "Hello" + name
+}
+
 func main() {
-	fmt.Println("Agus")
-	fmt.Println("Agus")
-	fmt.Println("Dimas")
+	result := getHello("Rizal")
+	fmt.Println(result)
+
 }
